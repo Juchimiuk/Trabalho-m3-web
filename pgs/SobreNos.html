@@ -1,4 +1,4 @@
-<!-- INÍCIO DO CÓDIGO COM MELHORIAS E INOVAÇÃO -->
+<!-- INÍCIO DO CÓDIGO COM MELHORIAS E INOVAÇÃO + RESPONSIVIDADE -->
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -18,10 +18,10 @@
   <body class="bg-gray-50 text-gray-900">
     <!-- HEADER -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
-      <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="container mx-auto flex flex-wrap justify-between items-center py-4 px-6">
         <h1 class="text-xl md:text-2xl font-bold text-blue-900 tracking-tight">NeoTech</h1>
-        <nav>
-          <ul class="flex gap-6 text-sm font-medium text-gray-700">
+        <nav class="w-full md:w-auto mt-4 md:mt-0">
+          <ul class="flex flex-wrap justify-center md:justify-end gap-4 text-sm font-medium text-gray-700">
             <li><a href="../index.html" class="hover:text-blue-800 transition-colors font-semibold">Home</a></li>
             <li><a href="SobreNos.html" class="hover:text-blue-800 transition-colors text-blue-800">Sobre Nós</a></li>
             <li><a href="servicos.html" class="hover:text-blue-800 transition-colors">Serviços</a></li>
@@ -33,8 +33,8 @@
     </header>
 
     <!-- HERO SOBRE -->
-    <section class="bg-blue-100 py-36 text-center">
-      <div class="container mx-auto px-6">
+    <section class="bg-blue-100 py-36 text-center px-6">
+      <div class="max-w-4xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">Quem Somos</h2>
         <p class="text-lg text-gray-700 max-w-2xl mx-auto">
           Conheça a história da NeoTech, nossos valores e a equipe por trás das soluções que transformam empresas.
@@ -51,11 +51,11 @@
             Proporcionar soluções tecnológicas inovadoras, acessíveis e eficazes que agreguem valor aos nossos clientes, melhorando seus processos e potencializando seus resultados.
           </p>
         </div>
-        <img src="https://media.gettyimages.com/id/1392016982/pt/foto/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=0&k=20&c=c_WOYdGgfSqwXiUBQ9Ojyh_AkJ4Ubo99vP0eqXw2BBM=" alt="Equipe tecnológica" class="rounded-lg shadow-md">
+        <img src="https://media.gettyimages.com/id/1392016982/pt/foto/mixed-group-of-business-people-sitting-around-a-table-and-talking.jpg?s=612x612&w=0&k=20&c=c_WOYdGgfSqwXiUBQ9Ojyh_AkJ4Ubo99vP0eqXw2BBM=" alt="Equipe tecnológica" class="rounded-lg shadow-md w-full h-auto">
       </section>
 
       <section class="grid md:grid-cols-2 gap-10 items-center">
-        <img src="https://media.gettyimages.com/id/1482147447/pt/foto/business-team-meeting-in-modern-office-sitting-area.jpg?s=612x612&w=0&k=20&c=1d6acFCznaNj6RFFUPm9TtdjDFqYwbwhUMzAFGN9KRs=" alt="Inovação e ambiente de trabalho" class="rounded-lg shadow-md">
+        <img src="https://media.gettyimages.com/id/1482147447/pt/foto/business-team-meeting-in-modern-office-sitting-area.jpg?s=612x612&w=0&k=20&c=1d6acFCznaNj6RFFUPm9TtdjDFqYwbwhUMzAFGN9KRs=" alt="Inovação e ambiente de trabalho" class="rounded-lg shadow-md w-full h-auto">
         <div>
           <h3 class="text-2xl font-semibold text-blue-900 mb-3">Nossa Visão</h3>
           <p class="text-gray-700 leading-relaxed">
@@ -66,7 +66,7 @@
 
       <section>
         <h3 class="text-2xl font-semibold text-blue-900 mb-6 text-center">Nossos Valores</h3>
-        <ul class="grid md:grid-cols-3 gap-6 text-gray-700 text-center">
+        <ul class="grid sm:grid-cols-1 md:grid-cols-3 gap-6 text-gray-700 text-center">
           <li class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
             <strong class="block text-lg text-blue-800 mb-2">Inovação</strong>
             Estamos sempre atualizados com as últimas tendências para entregar soluções modernas.
@@ -82,10 +82,10 @@
         </ul>
       </section>
 
-      <!-- INOVAÇÃO: TIMELINE DE MARCOS DA EMPRESA -->
+      <!-- TIMELINE RESPONSIVA -->
       <section>
         <h3 class="text-2xl font-semibold text-blue-900 mb-8 text-center">Nossa Trajetória</h3>
-        <div class="relative border-l-4 border-blue-300 pl-6 space-y-10">
+        <div class="relative border-l-4 border-blue-300 pl-6 space-y-10 max-w-3xl mx-auto">
           <div>
             <h4 class="text-blue-900 font-bold">2018</h4>
             <p class="text-gray-700">Fundação da NeoTech com foco em soluções web para pequenas empresas.</p>
@@ -105,8 +105,8 @@
         </div>
       </section>
 
-      <!-- INOVAÇÃO: VIDEO DE APRESENTAÇÃO -->
-      <section class="text-center mt-20">
+      <!-- VIDEO RESPONSIVO -->
+      <section class="text-center mt-20 px-4">
         <h3 class="text-2xl font-semibold text-blue-900 mb-6">Conheça a NeoTech em 90 segundos</h3>
         <div class="aspect-w-16 aspect-h-9 max-w-4xl mx-auto">
           <iframe class="w-full h-64 md:h-96 rounded-lg shadow-md" src="video.mp4" title="Apresentação da NeoTech" frameborder="0" allowfullscreen></iframe>
@@ -116,14 +116,14 @@
 
     <!-- FOOTER -->
     <footer class="bg-blue-900 text-white mt-20">
-      <div class="container mx-auto px-6 py-10 grid md:grid-cols-2 gap-6">
+      <div class="container mx-auto px-6 py-10 grid gap-6 md:grid-cols-2 text-sm">
         <div>
           <h4 class="text-lg font-semibold mb-3">NeoTech Soluções Digitais</h4>
-          <p class="text-sm leading-relaxed">
+          <p class="leading-relaxed">
             Soluções sob medida em tecnologia, com foco na experiência do usuário e na inovação digital. Localizada em Florianópolis/SC.
           </p>
         </div>
-        <div class="text-sm text-right md:text-left">
+        <div class="text-right md:text-left">
           <p>&copy; 2025 NeoTech. Todos os direitos reservados.</p>
           <p>Desenvolvido para a disciplina de Web Design - UNIVALI</p>
         </div>
