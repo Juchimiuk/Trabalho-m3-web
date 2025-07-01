@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - NeoTech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- HEADER -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-xl md:text-2xl font-bold text-blue-900">NeoTech</h1>
+      <nav>
+        <ul class="flex gap-6 text-sm font-medium text-gray-700">
+          <li><a href="../index.html" class="hover:text-blue-800 transition">Home</a></li>
+          <li><a href="SobreNos.html" class="hover:text-blue-800 transition">Sobre Nós</a></li>
+          <li><a href="servicos.html" class="hover:text-blue-800 transition">Serviços</a></li>
+          <li><a href="portfolio.html" class="text-blue-800 font-semibold">Portfólio</a></li>
+          <li><a href="contato.html" class="hover:text-blue-800 transition">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO PORTFÓLIO -->
+  <section class="bg-gradient-to-r from-blue-400 to-blue-900 py-24 text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-extrabold text-gray-100 mb-3">Nosso Portfólio</h2>
+      <p class="text-lg text-gray-200">Confira alguns projetos que desenvolvemos com paixão, tecnologia e inovação.</p>
+    </div>
+  </section>
+
+  <!-- GALERIA DE PROJETOS -->
+  <main class="container mx-auto px-6 py-16">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <!-- Projeto 1 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="https://cdn.prod.website-files.com/65bb7884c67879aa0d84f24e/65c0eb721ea864f342f436f8_What-are-landing-pages-and-why-do-you-need-to-use-them.jpeg" alt="Projeto 1" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Landing Page para Startup</h3>
+          <p class="text-gray-700 text-sm mb-4">Design responsivo e otimizado para captação de leads em uma plataforma de investimentos.</p>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="https://t3.ftcdn.net/jpg/03/93/37/24/360_F_393372407_u34qDqrJuvMZICQC0oKnKgEUi8XqVPJG.jpg" alt="Projeto 2" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Dashboard de Indicadores</h3>
+          <p class="text-gray-700 text-sm mb-4">Sistema de acompanhamento de KPIs com gráficos dinâmicos para uma consultoria empresarial.</p>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="https://cdn.prod.website-files.com/60870fec5b198a014ca79bcd/63645150bce441e4415226f2_IdANdtfEtGQEMyfZijkSWnaBBZkpYUQhg8BZuIw60XVj8EbpyCJSeU0HPBPQ4pr01TbyDE-pEY7MSSUOeGZjIPY_qjdTeOXyw0qYWIlkff-yaeOVmH9egxoS4Dvpfw4cPGROA-IlLJmriX6p13z_ub1g7MgpQPrS6frTxt7ebKoUFVadijbT99S0NkT3.jpeg" alt="Projeto 3" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">App Delivery Multiplataforma</h3>
+          <p class="text-gray-700 text-sm mb-4">Aplicativo híbrido para restaurantes com gestão de pedidos, notificações e geolocalização.</p>
+        </div>
+      </div>
+
+      <!-- Projeto 4 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="https://agenciametodo.com/wp-content/uploads/elementor/thumbs/VTEX-CMS-psax8wttnn7hlsyqlyf1eagu8g376t0akm6nyk3yb4.jpg" alt="Projeto 4" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Loja Virtual com CMS</h3>
+          <p class="text-gray-700 text-sm mb-4">Desenvolvimento de e-commerce com painel administrativo para uma marca de moda urbana.</p>
+        </div>
+      </div>
+
+      <!-- Projeto 5 -->
+      <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="https://static.supersaas.net/br/home/24/mhh_scs.png" alt="Projeto 5" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Sistema de Agendamento</h3>
+          <p class="text-gray-700 text-sm mb-4">Sistema online para clínicas com controle de horários, pacientes e confirmação por e-mail.</p>
+        </div>
+      </div>
+
+          </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-900 text-white mt-20">
+    <div class="container mx-auto px-6 py-10 grid md:grid-cols-2 gap-6">
+      <div>
+        <h4 class="text-lg font-semibold mb-3">NeoTech Soluções Digitais</h4>
+        <p class="text-sm leading-relaxed">
+          Soluções sob medida em tecnologia, com foco na experiência do usuário e na inovação digital. Localizada em Florianópolis/SC.
+        </p>
+      </div>
+      <div class="text-sm text-right md:text-left">
+        <p>&copy; 2025 NeoTech. Todos os direitos reservados.</p>
+        <p>Desenvolvido para a disciplina de Web Design - UNIVALI</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

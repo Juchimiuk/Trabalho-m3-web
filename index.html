@@ -1,83 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NeoTech Soluções Digitais</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-      }
-    </style>
-  </head>
-  <body class="bg-gray-50 text-gray-900">
-    <!-- HEADER -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-      <div class="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 class="text-xl md:text-2xl font-bold text-blue-900 tracking-tight">NeoTech</h1>
-        <nav>
-          <ul class="flex gap-6 text-sm font-medium text-gray-700">
-            <li><a href="index.html" class="hover:text-blue-800 transition-colors">Home</a></li>
-            <li><a href="./pgs/SobreNos.html" class="hover:text-blue-800 transition-colors">Sobre Nós</a></li>
-            <li><a href="./pgs/servicos.html" class="hover:text-blue-800 transition-colors">Serviços</a></li>
-            <li><a href="portfolio.html" class="hover:text-blue-800 transition-colors">Portfólio</a></li>
-            <li><a href="contato.html" class="hover:text-blue-800 transition-colors">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
 
-    <!-- HERO SECTION -->
-    <section class="bg-gradient-to-br from-blue-100 via-blue-200 to-white py-36">
-      <div class="container mx-auto px-6 text-center">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-4">Transformando ideias em soluções digitais</h2>
-        <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-6">
-          A NeoTech é especialista em desenvolvimento de soluções tecnológicas sob medida para empresas que querem evoluir no mundo digital.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NeoTech - Soluções digitais inovadoras para sua empresa. Desenvolvimento web, apps e consultoria especializada." />
+  <title>NeoTech Soluções Digitais</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+  <!-- HEADER -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-xl md:text-2xl font-bold text-blue-900 tracking-tight">NeoTech</h1>
+      <nav>
+        <ul class="flex gap-6 text-sm font-medium text-gray-700">
+          <li><a href="index.html" class="hover:text-blue-800 transition-colors">Home</a></li>
+          <li><a href="./pgs/SobreNos.html" class="hover:text-blue-800 transition-colors">Nossa História</a></li>
+          <li><a href="./pgs/SobreNos.html" class="hover:text-blue-800 transition-colors">Tecnologia</a></li>
+          <li><a href="portfolio.html" class="hover:text-blue-800 transition-colors">Portfólio</a></li>
+          <li><a href="./pgs/contato.html" class="hover:text-blue-800 transition-colors">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="bg-gradient-to-br from-blue-100 via-blue-200 to-white py-36">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-4">
+        <span id="typed-text">Transformando ideias em soluções digitais</span>
+      </h2>
+      <p class="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-6">
+        A NeoTech é especialista em desenvolvimento de soluções tecnológicas sob medida para empresas que querem evoluir no mundo digital.
+      </p>
+      <a href="contato.html" class="inline-block bg-blue-900 text-white text-sm md:text-base font-semibold py-3 px-6 rounded-full shadow hover:bg-blue-800 transition">Solicite um orçamento</a>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="container mx-auto px-6 py-16 space-y-24">
+    <!-- Benefícios e Especialidades -->
+    <section class="grid md:grid-cols-2 gap-12">
+      <article class="bg-white shadow-md rounded-lg p-8 hover:shadow-lg transition">
+        <h3 class="text-2xl font-semibold text-blue-900 mb-3">Por que escolher a NeoTech?</h3>
+        <p class="text-gray-700 leading-relaxed">
+          Atuamos com foco em performance, usabilidade e inovação. Nossas soluções são pensadas para escalar junto com o seu negócio, garantindo eficiência, segurança e um design que encanta o usuário.
         </p>
-        <a href="contato.html" class="inline-block bg-blue-900 text-white text-sm md:text-base font-semibold py-3 px-6 rounded-full shadow hover:bg-blue-800 transition">Solicite um orçamento</a>
+      </article>
+      <article class="bg-white shadow-md rounded-lg p-8 hover:shadow-lg transition">
+        <h3 class="text-2xl font-semibold text-blue-900 mb-3">Nossas Especialidades</h3>
+        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+          <li>Desenvolvimento de websites institucionais e landing pages</li>
+          <li>Criação de sistemas web personalizados</li>
+          <li>Aplicações mobile híbridas</li>
+          <li>Consultoria em UX/UI e acessibilidade</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Seção Interativa com Contadores -->
+    <section id="metrics" class="text-center py-16 bg-gradient-to-r from-white via-blue-50 to-white rounded-lg shadow-inner">
+      <h3 class="text-3xl font-bold text-blue-900 mb-10">Impacto em Números</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-blue-900 text-2xl font-bold">
+        <div>
+          <span id="clientes" class="block text-5xl">0</span>
+          Clientes Atendidos
+        </div>
+        <div>
+          <span id="projetos" class="block text-5xl">0</span>
+          Projetos Entregues
+        </div>
+        <div>
+          <span id="anos" class="block text-5xl">0</span>
+          Anos de Mercado
+        </div>
+        <div>
+          <span id="satisfacao" class="block text-5xl">0%</span>
+          Satisfação
+        </div>
       </div>
     </section>
 
-    <!-- MAIN CONTENT -->
-    <main class="container mx-auto px-6 py-16">
-      <section class="grid md:grid-cols-2 gap-12">
-        <article class="bg-white shadow-md rounded-lg p-8 hover:shadow-lg transition">
-          <h3 class="text-2xl font-semibold text-blue-900 mb-3">Por que escolher a NeoTech?</h3>
-          <p class="text-gray-700 leading-relaxed">
-            Atuamos com foco em performance, usabilidade e inovação. Nossas soluções são pensadas para escalar junto com o seu negócio, garantindo eficiência, segurança e um design que encanta o usuário.
-          </p>
-        </article>
-
-        <article class="bg-white shadow-md rounded-lg p-8 hover:shadow-lg transition">
-          <h3 class="text-2xl font-semibold text-blue-900 mb-3">Nossas Especialidades</h3>
-          <ul class="list-disc pl-5 space-y-2 text-gray-700">
-            <li>Desenvolvimento de websites institucionais e landing pages</li>
-            <li>Criação de sistemas web personalizados</li>
-            <li>Aplicações mobile híbridas</li>
-            <li>Consultoria em UX/UI e acessibilidade</li>
-          </ul>
-        </article>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="bg-blue-900 text-white">
-      <div class="container mx-auto px-6 py-5 grid md:grid-cols-2 gap-6">
-        <div>
-          <h4 class="text-lg font-semibold mb-3">NeoTech Soluções Digitais</h4>
-          <p class="text-sm leading-relaxed">
-            Soluções sob medida em tecnologia, com foco na experiência do usuário e na inovação digital. Localizada em Florianópolis/SC.
-          </p>
-        </div>
-        <div class="text-sm text-right md:text-left">
-          <p>&copy; 2025 NeoTech. Todos os direitos reservados.</p>
-          <p>Desenvolvido para a disciplina de Web Design - UNIVALI</p>
-        </div>
+    <!-- Depoimentos de Clientes -->
+    <section class="py-16 bg-white text-center">
+      <h3 class="text-3xl font-bold text-blue-900 mb-10">O que nossos clientes dizem</h3>
+      <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <blockquote class="bg-gray-100 p-6 rounded-lg shadow">
+          <p class="text-gray-700 italic">“A NeoTech transformou a presença digital da nossa empresa. Atendimento excelente e entrega pontual!”</p>
+          <footer class="mt-4 font-semibold text-blue-800">— Carla Souza, CEO da VittaPay</footer>
+        </blockquote>
+        <blockquote class="bg-gray-100 p-6 rounded-lg shadow">
+          <p class="text-gray-700 italic">“Equipe altamente qualificada e atenciosa. Recomendo a todos que buscam inovação e resultados.”</p>
+          <footer class="mt-4 font-semibold text-blue-800">— João Mendes, Diretor da AgroSmart</footer>
+        </blockquote>
+        <blockquote class="bg-gray-100 p-6 rounded-lg shadow">
+          <p class="text-gray-700 italic">“Com a NeoTech conseguimos escalar nossa plataforma e dobrar nossos acessos em poucos meses.”</p>
+          <footer class="mt-4 font-semibold text-blue-800">— Letícia Campos, CTO da EduNext</footer>
+        </blockquote>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <!-- CTA final -->
+    <section class="bg-blue-900 text-white py-16 text-center rounded-lg shadow-lg">
+      <h3 class="text-3xl font-bold mb-4">Pronto para inovar com a gente?</h3>
+      <p class="mb-6 text-lg">Fale com a nossa equipe e descubra como podemos transformar o seu projeto em realidade.</p>
+      <a href="contato.html" class="inline-block bg-white text-blue-900 font-semibold py-3 px-6 rounded-full shadow hover:bg-gray-200 transition">Entre em contato</a>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-900 text-white">
+    <div class="container mx-auto px-6 py-5 grid md:grid-cols-2 gap-6">
+      <div>
+        <h4 class="text-lg font-semibold mb-3">NeoTech Soluções Digitais</h4>
+        <p class="text-sm leading-relaxed">
+          Soluções sob medida em tecnologia, com foco na experiência do usuário e na inovação digital. Localizada em Florianópolis/SC.
+        </p>
+      </div>
+      <div class="text-sm text-right md:text-left">
+        <p>&copy; 2025 NeoTech. Todos os direitos reservados.</p>
+        <p>Desenvolvido para a disciplina de Web Design - UNIVALI</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    function animateValue(id, start, end, duration) {
+      let current = start;
+      const increment = end > start ? 1 : -1;
+      const stepTime = Math.abs(Math.floor(duration / (end - start)));
+      const obj = document.getElementById(id);
+      const timer = setInterval(function () {
+        current += increment;
+        obj.textContent = current + (id === 'satisfacao' ? '%' : '');
+        if (current == end) clearInterval(timer);
+      }, stepTime);
+    }
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateValue("clientes", 0, 150, 2000);
+          animateValue("projetos", 0, 320, 2500);
+          animateValue("anos", 0, 8, 1500);
+          animateValue("satisfacao", 0, 98, 2200);
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(document.getElementById("metrics"));
+  </script>
+  <script>
+    const messages = ["Transformando ideias em soluções digitais", "Inovação que impulsiona seu negócio", "Tecnologia feita sob medida"];
+    let i = 0;
+    const typedText = document.getElementById("typed-text");
+    setInterval(() => {
+      i = (i + 1) % messages.length;
+      typedText.textContent = messages[i];
+    }, 5000);
+  </script>
+</body>
+
 </html>
